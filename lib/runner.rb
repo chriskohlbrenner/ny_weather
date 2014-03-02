@@ -13,10 +13,10 @@ class Runner
       @user_command = gets.chomp
       
       if @user_command == '6'
-        puts FindForecast.new(6)
+        FindForecast.new(6)
         puts "Please enter your next request."
       elsif @user_command == '24'
-        puts FindForecast.new(24)
+        FindForecast.new(24)
         puts "Please enter your next request."
       elsif @user_command == "exit"
         exit
