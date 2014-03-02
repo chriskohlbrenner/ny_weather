@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'ny_forecast'
+
+puts NYForecast.new

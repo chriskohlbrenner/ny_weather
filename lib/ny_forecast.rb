@@ -22,5 +22,3 @@ class NYForecast
   end
 
 end
-
-NYForecast.new
