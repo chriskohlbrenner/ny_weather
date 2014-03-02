@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ny_forecast'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.executables << 'ny_forecast'
   s.date        = '2014-03-01'
   s.summary     = "NY weather forecast"
@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/ny_forecast.rb", "bin/ny_forecast"]
   s.homepage    = 'http://rubygems.org/gems/ny_forecast'
   s.license     = 'MIT'
-  s.add_runtime_dependency "nokogiri", [">=0"]
+  s.add_runtime_dependency "nokogiri", [">= 0"]
 end
