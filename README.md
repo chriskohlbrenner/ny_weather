@@ -14,4 +14,4 @@ NY Forecast is a simple gem for viewing 6-hour weather forecasts for New York Ci
 
 ## License
 
-Ruby on Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+NY Forecast is released under the [MIT License](http://www.opensource.org/licenses/MIT).
