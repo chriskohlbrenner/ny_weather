@@ -1,6 +1,6 @@
 ## Welcome to NY Forecast.
 
-NY Forecast is a simple gem for viewing 6-hour weather forecasts for New York City. It scrapes the forecast from Weather.com and displays in the command line.
+NY Forecast is a simple gem for viewing various weather forecasts (6-hour, 24-hour, or 5-day) for New York City. It scrapes the forecast from Weather.com and displays in the command line.
 
 ## How to Use
 

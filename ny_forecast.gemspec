@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ny_forecast'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.executables << 'ny_forecast'
   s.date        = '2014-03-02'
   s.summary     = "NY weather forecast"

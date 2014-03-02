@@ -18,7 +18,7 @@ class Runner
       if VALID.include?(@user_command)
         FindForecast.new(@user_command)
         puts "Please enter your next request. Valid requests are '6 hours', '24 hours', "
-        puts "or '5 days'."
+        puts "'5 days', or 'exit'."
       elsif @user_command == "exit"
         exit
         on = false
