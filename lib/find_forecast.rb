@@ -1,4 +1,3 @@
-require 'pry'
 require_relative '../config/environment.rb'
 
 class FindForecast
@@ -11,7 +10,7 @@ class FindForecast
   end
 
   def intro(command)
-    introduction = "\nToday's date: #{Date.today}.\nThe weather for the next #{command} is as follows:\n\n"
+    introduction = "\nToday's date: #{Date.today.strftime("%A, %B %d, %Y")}.\nThe weather for the next #{command} is as follows:\n\n"
     puts introduction
   end
 
@@ -45,9 +44,9 @@ class FindForecast
   end
 
   def scrape_five_days
-    forecasts = @five_day.css("div.wx-daypart").collect { |section| section.text.gsub(/\n/,'') }
+    forecasts = @five_day.css("div.wx-daypart").collect { |section| section.text.gsub(/\n\n/,'') }
     forecasts.each_with_index do |forecast, i|
-      puts forecast.gsub("Details","") #.gsub("°F", "°").gsub("AM","AM\n").gsub("PM","PM\n").gsub("FEE", "\nFEE").gsub("°", "°\n").gsub("%", "%\n").gsub("Show 15 Minute Details","").gsub("mph","mph\n\n")  if i % 4 == 0
+      puts forecast.gsub("Details","")
       puts  
     end
   end
