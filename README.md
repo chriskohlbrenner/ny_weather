@@ -1,8 +1,4 @@
 <img src="https://badge.fury.io/rb/ny_forecast.png">
----
-tags: weather, new york, nokogiri, web scraping
-language: ruby
----
 ## Welcome to NY Forecast.
 
 NY Forecast is a simple gem for viewing various weather forecasts (6-hour, 24-hour, or 5-day) for New York City. It scrapes the forecast from Weather.com and displays in the command line.
